@@ -21,3 +21,22 @@ Took a subset of correctly predicted sentences and masked 20% of the words to th
 For those sentences where prediction got flipped -> noted those sentences and highlighted the words which were masked
 
 Basically the task is which words are important in making the prediction getting flipped.
+
+Took a subset of 500 sentences which are solely explicit from the test data.
+
+ran the classifier on explicit dataset to see the prediction- everything were predicted as 1
+
+in the next run the causal markers were removed from the explicit sentences to see if the predictions gets flipped to 0.
+
+but that didn't happen most of the sentences are still predicted as 1 even though the causal markers are removed.
+
+20% of masking has been done on the explicit sentences and whatever words have been removed/masked has been noted.
+
+note all the words into a excel sheet and then did parts of speech to know how much % each category is?
+
+removed just the verbs which are being calculated from parts of speech and took the sentences.
+
+now ran the classifier again for sentences with no verbs in it.
+
+
+
