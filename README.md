@@ -1,48 +1,55 @@
 # Words_Important_for_Prediction_to_get_flipped
 
-Data Collection and Preparation:
-
+**Data Collection and Preparation:
+**
 Gathered diverse datasets including Causenet, MedCaus, FinCausal, ADE, and WikiMedia.
 Converted JSON and TXT files to CSV format for standardized data handling.
 Performed initial data exploration to understand the structure and content of the datasets.
-Data Preprocessing:
 
+**Data Preprocessing:
+**
 Implemented data preprocessing techniques to clean and prepare the data for analysis.
 Utilized Spacy for stopword removal to eliminate irrelevant words.
 Ensured data consistency and uniformity across all datasets.
-Data Splitting:
 
+**Data Splitting:
+**
 Split the dataset into training and testing sets with a 70-30 ratio.
 Obtained 1.2 lakh sentences for training, with 84k sentences for training and 39k for testing.
-Model Development:
 
+**Model Development:
+**
 Developed a causal sentence prediction model based on a Walsh Hadamard BILSTM algorithm.
 Configured the model architecture to effectively learn causal relationships from textual data.
-Model Evaluation:
 
+**Model Evaluation:
+**
 Evaluated the model's performance on the testing set to measure its predictive accuracy.
 Calculated metrics such as precision, recall, and F1-score to assess model performance comprehensively.
-Experimentation and Analysis:
 
+**Experimentation and Analysis:
+**
 Selected a subset of 500 correctly predicted sentences, focusing on explicit causal relationships.
 Conducted experiments by randomly masking words in the selected sentences to observe the impact on predictions.
 Investigated the effect of removing causal verbs from explicit sentences on prediction accuracy.
 Utilized NLTK for part-of-speech (POS) tagging and analyzed the impact of removing sentences containing verbs on classifier performance.
-Feature Importance Analysis:
 
+**Feature Importance Analysis:
+**
 Employed gradient feature-based importance to identify tokens significantly influencing prediction outcomes.
 Identified top importance scores for tokens and their corresponding POS tags from each sentence.
 Analyzed the results to gain insights into the key features driving the model's predictions.
-Documentation and Reporting:
 
+**Documentation and Reporting:
+**
 Documented the entire project including data preprocessing steps, model development, and analysis techniques.
 Generated reports summarizing the findings, insights, and recommendations.
 
 
 
 
-Extra Information about the Project: 
-Data has been collected from 4 different websites.
+**Extra Information about the Project: 
+**Data has been collected from 4 different websites.
 1. FinCausal Dataset - https://github.com/yseop/YseopLab/blob/develop/FNP_2020_FinCausal/data/practice/fnp2020-fincausal2-task1.csv
 2. ADE: https://huggingface.co/datasets/ade_corpus_v2?library=true
 3. https://causenet.org/ : causenet precision
