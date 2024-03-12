@@ -38,5 +38,7 @@ removed just the verbs which are being calculated from parts of speech and took 
 
 now ran the classifier again for sentences with no verbs in it.
 
+Built a Classifier and try to get the gradient feature based importance for each input feature of the sentence.
 
+try to do part of speech for each of this sentence and get the top two words maximum scores and top two words scores.
 
