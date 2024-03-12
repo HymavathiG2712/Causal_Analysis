@@ -32,7 +32,7 @@ Calculated metrics such as precision, recall, and F1-score to assess model perfo
 Selected a subset of 500 correctly predicted sentences, focusing on explicit causal relationships.
 Conducted experiments by randomly masking words in the selected sentences to observe the impact on predictions.
 Investigated the effect of removing causal verbs from explicit sentences on prediction accuracy.
-Utilized NLTK for part-of-speech (POS) tagging and analyzed the impact of removing sentences containing verbs on classifier performance.
+Utilized Spacy for part-of-speech (POS) tagging and analyzed the impact of removing sentences containing verbs on classifier performance.
 
 **Feature Importance Analysis:**
 
